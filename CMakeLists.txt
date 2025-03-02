@@ -38,6 +38,7 @@ else()
     else()
         add_executable(QtToDoList
             ${PROJECT_SOURCES}
+            Resources.qrc
         )
     endif()
 endif()
